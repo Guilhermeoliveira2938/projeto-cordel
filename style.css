@@ -12,6 +12,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body{
@@ -56,17 +57,16 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.7vw;
+    font-size: 3.5vw;
 }
 
 section > p {
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 section.normal {
     background-color: white;
     color: black;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
 section.imagem {
@@ -74,6 +74,7 @@ section.imagem {
     color: white;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     }
 
 section.imagem > p {
